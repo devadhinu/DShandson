@@ -19,8 +19,8 @@ public class RotateString {
 	@Test
 	public void example()
 	{
-		String s     ="abcde";
-		String goal = "deabc";
+		String s     ="12345";
+		String goal = "34521";
 		
 		System.out.println("the string is rotated "+ comparestringrotation(s,goal));		
 		

@@ -28,6 +28,8 @@ public class MergeArray {
 		int right = 0;
 		int index = 0;
 		int[] newArray = Arrays.copyOf(nums1,m);
+		
+		
 		while (left < m || right < n) {
 			if(left == m) nums1[index++] = nums2[right++];
 			else if (right == n) nums1[index++] = newArray[left++];
